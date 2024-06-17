@@ -27,10 +27,12 @@ body:
     attributes:
       label: Relevant error output
       description: Please copy and paste any relevant output. This will be automatically formatted into code, so no need for backticks.
+      placeholder: paste errors here
       render: shell
   - type: textarea
     id: diagnostic
     attributes:
       label: Relevant diagnostic output
       description: Optional; Please copy and paste the output from executing `moose/scripts/diagnostric.sh`
+      placeholder: output from ./diagnostic.sh
       render: shell
