@@ -20,13 +20,6 @@ body:
       label: Issue or question about MOOSE
       description: Please give as much context as you think we could need
       placeholder: What happened?
-      value: |
-        <!-- Ask your question here -->
-
-        <!-- paste any relevant error output within the tick marks below -->
-        ```
-
-        ```
     validations:
       required: true
   - type: textarea
@@ -39,5 +32,5 @@ body:
     id: diagnostic
     attributes:
       label: Relevant diagnostic output
-      description: Please copy and paste diagnostric log
+      description: [Optionale] Please copy and paste the output from executing `moose/scripts/diagnostric.sh`
       render: shell
