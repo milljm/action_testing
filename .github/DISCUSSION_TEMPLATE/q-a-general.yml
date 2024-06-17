@@ -32,5 +32,5 @@ body:
     id: diagnostic
     attributes:
       label: Relevant diagnostic output
-      description: [Optionale] Please copy and paste the output from executing `moose/scripts/diagnostric.sh`
+      description: Optional; Please copy and paste the output from executing `moose/scripts/diagnostric.sh`
       render: shell
