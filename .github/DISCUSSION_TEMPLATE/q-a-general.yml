@@ -20,18 +20,22 @@ body:
       label: Issue or question about MOOSE
       description: Please give as much context as you think we could need
       value: |
-      "<!-- Your question here -->""
+      <Your Question Here>
+
       ```
-      <!-- Post simulation logs, or snippets of code here -->
+      <Post simulation logs, or snippets of code here>
       ```
     validations:
       required: true
   - type: textarea
+    id: logs
+    attributes:
+      label: Relevant error output
+      description: Please copy and paste any relevant output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: textarea
     id: diagnostics
     attributes:
       label: Diagnostics for MOOSE installation issues
-      description: The diagnostics script in moose/scripts provides helpful information for solving installation issues
-      value: |
-        ```pre
-        Past output here
-        ```
+      description: [Optional] Run `moose/scripts/diagnostics.sh` and past those results here.
+      render: shell
