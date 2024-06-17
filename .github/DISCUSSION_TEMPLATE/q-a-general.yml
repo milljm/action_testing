@@ -19,7 +19,14 @@ body:
     attributes:
       label: Issue or question about MOOSE
       description: Please give as much context as you think we could need
-      value: "<Your question here>"
+      value: |
+      <!-- Your question here -->
+
+      ```
+      <!-- Post simulation logs, or snippets of code here -->
+      ```
+
+
     validations:
       required: true
   - type: textarea
