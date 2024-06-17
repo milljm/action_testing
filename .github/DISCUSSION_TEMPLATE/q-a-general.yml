@@ -19,9 +19,8 @@ body:
     attributes:
       label: Issue or question about MOOSE
       description: Please give as much context as you think we could need
+      placeholder: What happened?
       value: |
-      <Your Question Here>
-
       ```
       <Post simulation logs, or snippets of code here>
       ```
