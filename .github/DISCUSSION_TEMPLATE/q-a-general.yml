@@ -23,8 +23,9 @@ body:
       value: |
         <!-- Ask your question here -->
 
+        <!-- paste any relevant error output within the tick marks below -->
         ```
-        <!--past any relvant error ouput here -->
+
         ```
     validations:
       required: true
