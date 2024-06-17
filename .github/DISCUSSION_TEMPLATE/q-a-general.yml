@@ -26,7 +26,8 @@ body:
     id: logs
     attributes:
       label: Relevant error output
-      description: Please copy and paste any relevant output
+      description: Please copy and paste any relevant outputterm
+
       placeholder: paste errors here
       render: shell
   - type: textarea
@@ -35,4 +36,4 @@ body:
       label: Optional; Relevant diagnostic output
       description: Please copy and paste the output from executing `moose/scripts/diagnostics.sh`
       placeholder: output from ./diagnostics.sh
-      render: shell
+      render: pre
