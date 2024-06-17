@@ -21,8 +21,10 @@ body:
       description: Please give as much context as you think we could need
       placeholder: What happened?
       value: |
+        <!-- Ask your question here -->
+
         ```
-        <-- Post simulation logs, or snippets of code here -->
+        <!--past any relvant error ouput here -->
         ```
     validations:
       required: true
