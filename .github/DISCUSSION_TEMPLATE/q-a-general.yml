@@ -21,7 +21,9 @@ body:
       description: Please give as much context as you think we could need
       placeholder: What happened?
       value: |
-      Post simulation logs, or snippets of code here
+        ```
+        <-- Post simulation logs, or snippets of code here -->
+        ```
     validations:
       required: true
   - type: textarea
