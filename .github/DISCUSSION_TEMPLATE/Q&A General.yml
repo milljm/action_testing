@@ -28,5 +28,6 @@ body:
       label: Diagnostics for MOOSE installation issues
       description: The diagnostics script in moose/scripts provides helpful information for solving installation issues
       value: |
-        [Optional] Output of the diagnostics scripts. To run the script:
-          cd ~/projects/moose/scripts; ./diagnostics.sh"
+        \`\`\`pre
+        Past output here
+        \`\`\`
