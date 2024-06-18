@@ -18,7 +18,7 @@ body:
     id: annotation
     attributes:
       label: At a minimum
-      description: If you choose to ignore the above requirements, the main takeway is this; *No pictures of text*. Use [GitHub's markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to properly format your messages (no blanket copy/pasting of errors)
+      description: If you choose to ignore the above requirements, the main takeway is this; **No pictures of text**, and do make use of [GitHub's markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to properly format your messages (no blanket copy/pasting of errors).
   - type: textarea
     id: question
     attributes:
