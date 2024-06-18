@@ -25,14 +25,14 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Optional: Relevant error output
-      description: Please copy and paste any relevant output
-      placeholder: optionally paste errors here
+      label: (Optional) Relevant error output
+      description: Please copy and paste any relevant errors
+      placeholder: paste any errors here
       render: shell
   - type: textarea
     id: diagnostic
     attributes:
-      label: Optional: Relevant diagnostic output
+      label: (Optional) Relevant diagnostic output
       description: Please copy and paste the output from executing `moose/scripts/diagnostics.sh`
       placeholder: optionally include output from running ./diagnostics.sh
       render: pre
