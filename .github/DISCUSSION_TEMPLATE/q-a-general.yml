@@ -10,9 +10,9 @@ body:
           required: true
         - label: I have searched the Discussions forum and my question has not been asked before
           required: true
-        - label: I have searched the MOOSE website and the documentation does not answer my question
+        - label: I have searched the [MOOSE website](https://mooseframework.inl.gov) and the documentation does not answer my question
           required: true
-        - label: I have formatted my post following the posting guidelines (avoid screenshots if possible, triple back quotes before/after pasted text, etc)
+        - label: I have formatted my post following the [posting guidelines](https://github.com/idaholab/moose/discussions/18270) (avoid screenshots if possible, triple back quotes before/after pasted text, etc)
           required: true
   - type: textarea
     id: question
@@ -25,15 +25,14 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant error output
-      description: Please copy and paste any relevant outputterm
-
-      placeholder: paste errors here
+      label: Optional: Relevant error output
+      description: Please copy and paste any relevant output
+      placeholder: optionally paste errors here
       render: shell
   - type: textarea
     id: diagnostic
     attributes:
-      label: Optional; Relevant diagnostic output
+      label: Optional: Relevant diagnostic output
       description: Please copy and paste the output from executing `moose/scripts/diagnostics.sh`
-      placeholder: output from ./diagnostics.sh
+      placeholder: optionally include output from running ./diagnostics.sh
       render: pre
