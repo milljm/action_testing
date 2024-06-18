@@ -17,7 +17,7 @@ body:
   - type: textarea
     id: annotation
     attributes:
-      label:
+      label: At a minimum
       description: |
         If you choose to ignore the above requirements, at a minimum, we humbly request that you
         *do* read [posting guidelines](https://github.com/idaholab/moose/discussions/18270) before
