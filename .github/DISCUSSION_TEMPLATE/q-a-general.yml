@@ -14,7 +14,7 @@ body:
           required: true
         - label: I have formatted my post following the [posting guidelines](https://github.com/idaholab/moose/discussions/18270) (avoid screenshots if possible, triple back quotes before/after pasted text, etc)
           required: true
-  -type: textarea
+  - type: textarea
     id: annotation
     attributes:
       label:
