@@ -16,7 +16,7 @@ body:
           required: true
   - type: markdown
     attributes:
-      value: If you choose to ignore the above requirements, the main takeway is this; **No pictures of text**, and do make use of [GitHub's markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to properly format your messages (no blanket copy/pasting of errors).
+      value: If you choose to ignore the above requirements, the main takeway is this; **No screenshots of text**, and do make use of [GitHub's markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to properly format your messages (triple back quotes (\`\`\`) before/after pasted text).
   - type: textarea
     id: question
     attributes:
