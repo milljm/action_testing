@@ -14,6 +14,16 @@ body:
           required: true
         - label: I have formatted my post following the [posting guidelines](https://github.com/idaholab/moose/discussions/18270) (avoid screenshots if possible, triple back quotes before/after pasted text, etc)
           required: true
+  -type: textarea
+    id: annotation
+    attributes:
+      label:
+      description: |
+        If you choose to ignore the above requirements, at a minimum, we humbly request that you
+        *do* read [posting guidelines](https://github.com/idaholab/moose/discussions/18270) before
+        posting. We value properly formatted messages. No pictures of text. No quick copy and
+        pasting of errors without formatting them using
+        [GitHub's markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
   - type: textarea
     id: question
     attributes:
