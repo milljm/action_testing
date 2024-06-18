@@ -4,15 +4,11 @@ body:
     attributes:
       label: Check these boxes if you have followed the posting rules.
       options:
+        - label: I have consulted the [posting guidelines](https://github.com/idaholab/moose/discussions/18270).
+          required: true
+        - label: I have searched the [Discussions forum](https://github.com/idaholab/moose/discussions) and [MOOSE website](https://mooseframework.inl.gov) and have not found what I was looking for
+          required: true
         - label: Q&A Getting Started is the most appropriate category for my question (trouble installing, beginner user, ...)
-          required: true
-        - label: I have consulted the posting Guidelines on the Discussions front page
-          required: true
-        - label: I have searched the Discussions forum and my question has not been asked before
-          required: true
-        - label: I have searched the [MOOSE website](https://mooseframework.inl.gov) and the documentation does not answer my question
-          required: true
-        - label: I have formatted my post following the [posting guidelines](https://github.com/idaholab/moose/discussions/18270) (avoid screenshots if possible, triple back quotes before/after pasted text, etc)
           required: true
   - type: textarea
     id: question
