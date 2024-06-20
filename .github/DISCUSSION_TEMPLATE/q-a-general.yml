@@ -6,7 +6,7 @@ body:
       options:
         - label: I have consulted the [Posting Guidelines](https://github.com/idaholab/moose/discussions/18270).
           required: true
-        - label: I have searched the [Discussions Forum](https://github.com/idaholab/moose/discussions) and [MOOSE website](https://mooseframework.inl.gov) and have not found what I was looking for
+        - label: I have searched the [Discussions Forum](https://github.com/idaholab/moose/discussions) and [MOOSE Framework Troubleshooting](https://mooseframework.inl.gov/help/troubleshooting.html) and have not found what I was looking for
           required: true
         - label: Q&A Getting Started is the most appropriate category for my question (trouble installing, beginner user, ...)
           required: true
