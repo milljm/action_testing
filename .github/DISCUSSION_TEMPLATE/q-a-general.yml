@@ -21,8 +21,7 @@ body:
     id: logs
     attributes:
       label: (Optional) code in question / simulation log / error
-      description: copy and paste any relevant errors
-      placeholder: paste errors here
+      description: copy and paste code, simulation log, or errors here
       render: shell
   - type: textarea
     id: diagnostic
