@@ -13,10 +13,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        New to GitHub? Please make use of [GitHub's Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) when posting on our forums.
+        New to GitHub? Please make use of [GitHub's Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) whenever possible.
 
-        Show us that you care about your own posts. When you post, if what you see is a crazy circus
-        show of wildly changing fonts; its time to learn markdown.
+        Show us that you care about your own posts. If what you see is a crazy circus show of wildly
+        changing fonts; its time to click the three dots at the top right of your post, and then
+        "edit", and learn markdown.
   - type: textarea
     id: question
     attributes:
