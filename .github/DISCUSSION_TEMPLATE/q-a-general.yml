@@ -12,10 +12,7 @@ body:
           required: true
   - type: markdown
     attributes:
-      value: |
-        New to GitHub? Please make use of [GitHub's markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) syntax when responding our developers.
-        In particular when posting errors or code. We very much appreciate users who post formatted
-        code blocks.
+      value: New to GitHub? Please make use of [GitHub's markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) syntax when responding our developers. In particular when posting errors or code. We very much appreciate users who post formatted code blocks.
   - type: textarea
     id: question
     attributes:
