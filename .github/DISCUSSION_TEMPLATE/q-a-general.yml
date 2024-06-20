@@ -10,18 +10,26 @@ body:
           required: true
         - label: Q&A Getting Started is the most appropriate category for my question (trouble installing, beginner user, ...)
           required: true
+  - type: markdown
+    attributes:
+      description: |
+        New to GitHub? Please make use of GitHub's markdown syntax when responding to questions. In
+        particular, when posting errors. We very much appreciate users who post formatted code
+        blocks.
   - type: textarea
     id: question
     attributes:
       label: Issue or question about MOOSE
-      description: Please give as much context as you think we could need
+      description: |
+        Please give as much context as you think we could need. You can reference other discussions,
+        issues, or web articles, web sites, etc.
     validations:
       required: true
   - type: textarea
     id: logs
     attributes:
-      label: (Optional) code in question / simulation log / error
-      description: copy and paste code, simulation log, or errors here
+      label: (Optional) code in question / simulation log / errors
+      description: copy and paste code, simulation log, or errors here.
       render: shell
   - type: textarea
     id: diagnostic
